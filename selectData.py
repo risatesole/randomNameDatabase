@@ -1,6 +1,6 @@
 import sqlite3 as sql
 
-conn = sql.connect("mydatabase.db")
+conn = sql.connect("randomNames.db")
 cur = conn.cursor()
 cur.execute("SELECT * FROM PEOPLE")
     
